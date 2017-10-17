@@ -1,0 +1,51 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+ width: 1050px;
+ background-color: silver;
+ margin: 0px auto;
+}
+#header{
+    height: 150px;
+    width: 1000px;
+    background-color: green;
+    border: 25px solid silver;
+}
+#navigation{
+ height: 300px;
+ width: 200px;
+ background-color: blue;
+ float: left;
+ /* display: inline-block; */
+ border-bottom: 100px solid silver;
+ border-left: 25px solid silver;
+}
+#main_content{
+ height: 375px;
+ width: 750px;
+ background-color: red;
+ float: right;
+ /* display: inline-block; */
+ border-left: 50px solid silver;
+ border-right: 25px solid silver;
+ border-bottom: 25px solid silver;
+ 
+}
+.subcontents{
+ height: 200px;
+ width: 210px;
+ display: inline-block; 
+ background-color: yellow;
+ border-left: 15px solid red;
+ border-top: 15px solid red;
+}
+#advertisement{
+ height: 120px;
+ width: 670px;
+ /* display: inline-block; */
+ background-color: purple;
+ border: 15px solid red;
+}
